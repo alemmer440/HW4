@@ -25,9 +25,9 @@ The following packages are required for the code to run, and were all installed 
 
 A list of package versions the environment the code was created in is in the file requirements.txt
 
-Once the necessary packages are installed, run the following command:
+Once the necessary packages are installed, run the following command:__
 git clone https://github.com/alemmer440/HW4.git
 
-Then, navigate in the folder to Data/GDC\Data.zip and unzip the file.
+Then, navigate in the folder to Data/GDC\_Data.zip and unzip the file.
 
-Now, navigate to Scripts/Generate\Plot.ipynb. Open the jupyter notebook, run all cells, and the figure will be regerated.
+Now, navigate to Scripts/Generate\_Plot.ipynb. Open the jupyter notebook, run all cells, and the figure will be regerated.
