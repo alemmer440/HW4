@@ -25,7 +25,7 @@ The following packages are required for the code to run, and were all installed 
 
 A list of package versions the environment the code was created in is in the file requirements.txt
 
-Once the necessary packages are installed, run the following command:__
+Once the necessary packages are installed, run the following command:  
 git clone https://github.com/alemmer440/HW4.git
 
 Then, navigate in the folder to Data/GDC\_Data.zip and unzip the file.
