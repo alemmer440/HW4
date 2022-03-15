@@ -6,7 +6,7 @@ This repository contains paired mRNA and microRNA data files from 1,097 breast c
 
 ## Data
 
-All data is pulled from the National Cancer Institute GDC Data Portal. Specifically, we filtered for patients from The Cancer Genome Atlas that had breast cancer and both mRNA and microRNA data files. When downloaded, the data came in a highly nested directory, so we flattened all of the files into one directory. We also downloaded the associated json file containing the metadata, from which we can determine which files belong to each patient. 
+All data is pulled from the National Cancer Institute GDC Data Portal, which can be found at this link: https://portal.gdc.cancer.gov/. Specifically, we filtered for female breast cancer patients from The Cancer Genome Atlas project that had both mRNA and microRNA data files. For mRNA files, we selected the versions using FPKM normalization, and for microRNAs we selected the version without isoforms. When downloaded, the data came in a highly nested directory, so we flattened all of the files into one directory. We also downloaded the associated json file containing the metadata, from which we can determine which files belong to each patient based on the file Case IDs.
 
 ## Folder Structure
 
@@ -14,5 +14,20 @@ The Data folder has all of the data and metadata. The data files are all zipped 
 
 ## Installation
 
+The code runs using python3.
+
+The following packages are required for the code to run, and were all installed using conda:
+* Jupyter Notebook
+* Numpy
+* Json
+* Seaborn
+* Matplotlib
+
+A list of package versions the environment the code was created in is in the file requirements.txt
+
+Once the necessary packages are installed, run the following command:
 git clone https://github.com/alemmer440/HW4.git
 
+Then, navigate in the folder to Data/GDC\Data.zip and unzip the file.
+
+Now, navigate to Scripts/Generate\Plot.ipynb. Open the jupyter notebook, run all cells, and the figure will be regerated.
