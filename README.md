@@ -23,11 +23,11 @@ The following packages are required for the code to run, and were all installed 
 * Seaborn
 * Matplotlib
 
-A list of package versions the environment the code was created in is in the file requirements.txt
+A list of package versions for the environment the code was created in, and the command you can use to create the same conda enviroment, in is in the file requirements.txt. Alternatively, these packages can be installed using pip. 
 
 Once the necessary packages are installed, run the following command:  
 git clone https://github.com/alemmer440/HW4.git
 
 Then, navigate in the folder to Data/GDC\_Data.zip and unzip the file.
 
-Now, navigate to Scripts/Generate\_Plot.ipynb. Open the jupyter notebook, run all cells, and the figure will be regerated.
+Finally, navigate to Scripts/Generate\_Plot.ipynb. Open the jupyter notebook, run all cells, and the figure will output in the Figures folder.
